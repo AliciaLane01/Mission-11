@@ -35,5 +35,10 @@ namespace BookStore.Controllers
 
             return View(x);
         }
+
+        public IActionResult Bootstrap()
+        {
+            return View("BootstrapStuff");
+        }
     }
 }
